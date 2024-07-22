@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Buoi14-Day2-React/static/css/main.549e9f6a.css",
+    "main.js": "/Buoi14-Day2-React/static/js/main.07bf14ff.js",
+    "index.html": "/Buoi14-Day2-React/index.html",
+    "main.549e9f6a.css.map": "/Buoi14-Day2-React/static/css/main.549e9f6a.css.map",
+    "main.07bf14ff.js.map": "/Buoi14-Day2-React/static/js/main.07bf14ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.549e9f6a.css",
+    "static/js/main.07bf14ff.js"
+  ]
+}
