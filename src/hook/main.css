@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Satisfy&display=swap");
+body {
+    font-family: "Outfit", sans-serif !important;
+}
+img {
+    width: 100%;
+    display: block;
+}
+.text-primary {
+    color:  #44d7b6 !important;
+}
+.text-secondary {
+    color:  #3685fb !important;
+}
+.text-third {
+    color: #002248 !important;
+}
+.text-gray {
+    color: #969ba1;
+}
+.text-yellow {
+    color: #f9bf00;
+}
+.fs-08 {
+    font-size: 0.8rem !important;
+}
+.font-light {
+    font-weight: 300;
+}
+.font-medium {
+    font-weight: 500;
+}
+.font-bold {
+    font-weight: 700;
+}
+.box-shadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.headline-tour {
+    text-align: center;
+    h3 {
+        font-family: "Satisfy", cursive;
+        color: #44d7b6;
+        font-size: 50px;
+    }
+}
+.tour-tab {
+    .nav-item {
+        margin: 2rem 0.5rem 0;
+        button {
+            background-color: #fff;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            &.active {
+                background-color: #44d7b6;
+                color: #fff;
+            }
+        }
+    }
+}
+@media (max-width: 991px) {
+    .carousel-before::before {
+        background-color: transparent;
+    }
+    .carousel-caption {
+        display: none;
+    }
+}
